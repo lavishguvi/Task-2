@@ -1,0 +1,207 @@
+Agenda:
+Day-2:Java Day-2
+1.Variables in Java
+2.Keywords (Reserved keywords)
+Keywords:Keywords are special words which has purpose
+and predefine by java people.
+
+By default->
+51 keyword 
+68 keywords
+
+
+
+3.Data Types
+4.Operators
+5.Java Naming convention.
+
+10,20.4,100,
+'a',"Lavish","10"
+
+Variable->it is named memory location
+that can store data temporary  during the
+exection of the program.
+
+Variable declartion:
+datatype variablename;
+
+age=40
+
+int age;//declaration of variable
+int age=40;//declartion with initialization.
+
+salary=1000.20
+decimal->float/double
+double salary;
+float salary;
+
+name="Lavish" or 'l'
+->'M' 'F'
+char gender='M'
+
+
+You can perform any operation with Operators->
+
+
+keyword
+//Primitive data type->
+int,float,char,byte,boolean,short,long,double
+Exceptions& Error->
+try,catch,finally,throw,throws,
+Access modifiers:
+default,public,private & protected.
+//return
+return ,void 
+
+//flow control(condition check)->
+case,continue,break,do,while,else,if,switch,for
+
+//oops->
+abstract,class,extends,interface,implements,
+super,this,import,package,final,static,new 
+
+
+
+Primitive data type with size ->default value
+1.boolean->1 bit->false
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        
+        boolean flag=true;
+        flag=false;
+        System.out.println(flag);
+
+    }
+  
+}
+
+
+2.char->2 byte->null
+
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        
+        char[] name={'l','a','v','i','s','h'};//1-D array of Character array 
+        String name="lavish";//String Class 
+        System.out.println(name);
+
+    }
+  
+}
+
+
+3.byte->1 byte->0
+Byte data type-range ->-128 to +127 to store values.
+benefits->save memory
+instead of using int, use byte if requirement is lesser .
+
+
+
+4.short->2 byte->0
+-32768 to 0  to +32767
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        
+         short num;
+         num=-32769;
+         System.out.println(num);
+
+    }
+  
+}
+
+
+5.int->4 byte->0
+-2147483648 to 2147483647
+
+6.long->8 byte->0L
+-9223372036854775808 to 9223372036854775807
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        
+         long  num;
+         num=922337203685477580L;
+         System.out.println(num);
+
+    }
+  
+}
+
+
+6.float->4 byte->0.0
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        
+         float  num;
+         num=9.6363636464f;
+         System.out.println(num);
+
+    }
+  
+}
+
+
+7.double->8 byte->0.0
+
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        
+         double  num;
+         num=9.6363636464;
+         System.out.println(num);
+
+    }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
